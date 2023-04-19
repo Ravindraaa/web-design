@@ -1,0 +1,117 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+header{
+	height:120px;
+	width:100%;
+	background-color:whitesmoke;
+}
+
+header > nav{
+	height:inherit;
+	max-width:1920px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	font-family:helvetica, sans-serif;
+}
+
+header > nav > .wid{
+	height:inherit;
+	width:45%;
+}
+
+header > nav > .center{
+	height:inherit;
+	width:10%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header > nav > .center > img{
+	width:100%;
+}
+
+header > nav > .left{
+	margin-left:50px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+}
+
+header > nav > .left > ul{
+	list-style:none;
+	display:flex;
+	color:#3a397c;
+}
+
+header > nav > .left > ul:first-child{
+	column-gap:12px;
+	font-size:32px;
+}
+
+header > nav > .left > ul:last-child{
+	column-gap:22px;
+	font-size:14px;
+	text-transform:uppercase;
+}
+
+header > nav > .right{
+	margin-right:50px;
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+	justify-content:space-between;
+}
+
+header > nav > .right > ul{
+	list-style:none;
+	display:flex;
+	color:#002366;
+	font-size:12px;
+	margin-top:12px;
+}
+
+header > nav > .right > ul > li:last-child{
+	margin-left:22px;
+}
+
+header > nav > .right .rg-icon{
+	font-size:16px;
+}
+
+header > nav > .right > a{
+	background-color:#002366;
+	color:white;
+	text-decoration:none;
+	font-size:15px;
+	padding:16px 20px;
+	border-radius:5px;
+	text-transform:uppercase;
+	margin-bottom:1px;
+}
+
+header .fb{
+	color:#003663;
+}
+
+header .tw{
+	color:#4099FF;
+}
+
+header .ld{
+	color:#0e76a8;
+}
+
+header .insta{
+	color:#dd2a7b;
+}
+
+header .yt{
+	color:#c4302b;
+}
